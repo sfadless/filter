@@ -1,0 +1,16 @@
+{
+  "name": "sfadless/filter",
+  "description": "Filter for converting query strings",
+  "require": {
+    "php": "^5.4 || ^7.0",
+    "symfony/http-foundation": ">=3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sfadless\\": "src"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.3"
+  }
+}
